@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.image-shadow{
+  -webkit-filter: drop-shadow(0 0 40px #e4e3dd);
+  filter: drop-shadow( 0 0 40px #e4e3dd);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes infinite-slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-slide {
+  display: flex;
+  white-space: nowrap;
+  animation: infinite-slide 20s linear infinite;
+}
