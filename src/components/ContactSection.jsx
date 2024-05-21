@@ -49,10 +49,10 @@ function ContactSection() {
               <li>
                 <span className="font-medium">Email:</span>{" "}
                 <a
-                  href="mailto:varshneyyash304@example.com"
+                  href="mailto:varshneyyash304@gmail.com"
                   className="text-blue-400 hover:underline"
                 >
-                  varshneyyash304@example.com
+                  varshneyyash304@gmail.com
                 </a>
               </li>
               <li>
